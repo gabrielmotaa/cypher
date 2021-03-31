@@ -12,9 +12,9 @@ Example, also provided in the code:
 ```python
 c = Cypher("b")  # shift the alphabet by the letter b
 encrypted = c.encrypt("This is my name")
-print(encrypted)
+print(encrypted)  # prints "Uijt jt nz obnf"
 decrypted = c.decrypt(encrypted)
-print(decrypted)
+print(decrypted)  # prints "This is my name"
 ```
 
 ## Docstring

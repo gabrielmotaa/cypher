@@ -16,7 +16,7 @@ dev_packages = test_packages + util_packages
 
 setup(
     name="cypher",
-    version="0.0.1",
+    version="0.1.0",
     packages=find_packages(),
-    extra_require={"dev": dev_packages, "test": test_packages},
+    extras_require={"dev": dev_packages, "test": test_packages},
 )

@@ -18,4 +18,4 @@ install-dev:
 	pre-commit install
 
 install-test:
-	python -m pip isntall -e ".[test]"
+	python -m pip install -e ".[test]"

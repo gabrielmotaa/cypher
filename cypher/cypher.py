@@ -14,7 +14,7 @@ class Cypher:
     Example
     -------
     This is how you can use the Cypher:
-    
+
         >>> c = Cypher("b")
         >>> encrypted = c.encrypt("This is my name")
         >>> print(encrypted)
@@ -32,7 +32,7 @@ class Cypher:
 
     def encrypt(self, phrase):
         """A method for encrypting the given phrase to a Cypher.
-        
+
         Parameters
         ----------
         phrase: str
